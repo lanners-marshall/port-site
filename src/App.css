@@ -1,3 +1,24 @@
+.custom-border {
+  border: solid black 1px;
+}
+
+.awardsPic {
+  border-radius: 14px;
+}
+
+.whiteText {
+  color: white;
+}
+
+.whiteText:hover {
+  color:white;
+}
+
+.maxwidth {
+  max-width: 650px;
+  margin: 0 auto 30px auto;
+}
+
 .email-form > textarea{
   max-width: 550px;
   border-radius: 4px;
