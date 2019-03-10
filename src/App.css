@@ -6,6 +6,11 @@
   border-radius: 14px;
 }
 
+.upFont {
+
+}
+
+
 .whiteText {
   color: white;
 }
@@ -30,6 +35,8 @@
   height: 250px;
   border-style: ridge;
 }
+
+.email-form > textarea:focus {outline:none;}
 
 .email-form > a {
   border: solid grey 2px;
@@ -61,6 +68,17 @@
   font-size: 1.2rem;
 }
 
+.email-form > input:focus {outline:none;}
+
+.outline {
+  max-width: 650px;
+  padding: 3%;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 2px 3px 4px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 1px 2px 3px 4px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow: 1px 2px 3px 4px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
 .email-form {
   padding-top: 20px;
   max-width: 700px;
@@ -82,6 +100,9 @@
   }
   .email-form > textarea{
     max-width: 600px;
+  }
+  .outline {
+    border-radius: 0;
   }
 }
 

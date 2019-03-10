@@ -134,43 +134,42 @@ class App extends Component {
       </div>
     </section>
 
-    
-    <section id="contact">
-      <div className="container">
-        <h2 className="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-        <hr className="star-dark mb-5"/>
-	        <ReactContactForm to="lanners.marshall@gmail.com" className="email-form" />
-      </div>
-    </section>
-    <footer className="footer text-center">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-4 mb-5 mb-lg-0">
-            <h4 className="text-uppercase mb-4">Location</h4>
-            <p className="lead mb-0">Seattle, WA</p>
-          </div>
-          <div className="col-md-4 mb-5 mb-lg-0">
-            <h4 className="text-uppercase mb-4">Around the Web</h4>
-            <ul className="list-inline mb-0">
-              <li className="list-inline-item">
-                <a className="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/lanners-marshall">
-                  <i className="fab fa-fw fa-github"></i>
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a className="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/mlanners/">
-                  <i className="fab fa-fw fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-4">
-            <h4 className="text-uppercase mb-4">Reach Out</h4>
-            <p className="lead mb-0">206-475-7021 <br/>lanners.marshall@gmail.com</p>
+      <section id="contact">
+        <div className="container outline">
+          <h2 className="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+          <hr className="star-dark mb-5"/>
+  	        <ReactContactForm to="lanners.marshall@gmail.com" className="email-form" />
+        </div>
+      </section>
+      <footer className="footer text-center">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-4 mb-5 mb-lg-0">
+              <h4 className="text-uppercase mb-4">Location</h4>
+              <p className="lead mb-0">Seattle, WA</p>
+            </div>
+            <div className="col-md-4 mb-5 mb-lg-0">
+              <h4 className="text-uppercase mb-4">Around the Web</h4>
+              <ul className="list-inline mb-0">
+                <li className="list-inline-item">
+                  <a className="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/lanners-marshall">
+                    <i className="fab fa-fw fa-github"></i>
+                  </a>
+                </li>
+                <li className="list-inline-item">
+                  <a className="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/mlanners/">
+                    <i className="fab fa-fw fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="col-md-4">
+              <h4 className="text-uppercase mb-4">Reach Out</h4>
+              <p className="lead mb-0">206-475-7021 <br/>lanners.marshall@gmail.com</p>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
 
     <div className="copyright py-4 text-center text-white">
       <div className="container">
