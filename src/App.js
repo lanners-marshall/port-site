@@ -125,7 +125,7 @@ class App extends Component {
       <div className="container">
         <h2 className="text-center text-uppercase text-white">About Me</h2>
         <hr className="star-light mb-5"/>
-          <p className="lead maxwidth">Along with coding in my spare time, I'm also a huge dance enthisuest and have been partner dancing for over 12 years and hold around 14 different dance awards. See me on Youtube <a className="whiteText" href="https://www.youtube.com/watch?v=cJA49oCV4o4">HERE</a>.</p>
+          <p className="lead maxwidth">Along with coding in my spare time, I'm also a huge dance enthusiast and have been partner dancing for over 12 years and hold around 14 different dance awards. See me on Youtube <a className="whiteText" href="https://www.youtube.com/watch?v=cJA49oCV4o4">HERE</a>.</p>
           <p className="lead maxwidth">
           I also really love being outdoors and taking long hikes with friends.
           See my latest adventures <a href="https://www.flickr.com/photos/168861944@N05/" className="whiteText">HERE</a> 
