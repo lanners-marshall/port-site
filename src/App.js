@@ -10,7 +10,6 @@ class App extends Component {
   render() {
     return (
       <div>
-
 		    <nav className="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
 		      <div className="container">
 		        <a className="navbar-brand js-scroll-trigger" href="#page-top">Marshall Lanners</a>
@@ -193,7 +192,7 @@ class App extends Component {
             <div className="col-lg-8 mx-auto">
               <h2 className="text-secondary text-uppercase mb-0">Lets Get Tacos</h2>
               <hr className="star-dark mb-5"/>
-              <img className="img-fluid mb-5" src="img/portfolio/tacos.png" alt=""/>
+              <iframe className="youtubeVid" src="https://www.youtube.com/embed/dVPt9IrXroA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <p className="mb-5">Event organizer App that lets you interact with the Yelp Api and the Google Api to look up your favorite locations to get tacos at, invite friends, and schedule meet-ups. <a href="https://taco-run-c453f.firebaseapp.com/">Website</a>, <a href="https://github.com/Lambda-School-Labs/labs10-taco-run"> Github</a>, <a href="https://trello.com/b/CaLMkz0e/labs10-taco-run">Trello</a></p>
               <a className="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i className="fa fa-close"></i>
@@ -313,5 +312,7 @@ class App extends Component {
     );
   }
 }
+
+//youtube
 
 export default App;
