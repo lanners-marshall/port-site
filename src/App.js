@@ -63,7 +63,7 @@ class App extends Component {
                   <i className="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img className="img-fluid" src="img/portfolio/tacos.png" alt=""/>
+              <img className="img-fluid" src="img/portfolio/taco_run.png" alt=""/>
             </a>
           </div>
           <div className="col-md-6 col-lg-4">
@@ -313,6 +313,6 @@ class App extends Component {
   }
 }
 
-//youtube
+//tacos
 
 export default App;
