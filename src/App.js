@@ -40,7 +40,7 @@ class App extends Component {
 	        <h1 className="text-uppercase mb-0">Marshall Lanners</h1>
 	        <hr className="star-light"/>
 	        <h2 className="font-weight-light mb-0">Full Stack Web Developer</h2><br />
-          <h2 className="font-weight-light mb-0">HTML- CSS - Javascript - React - Node - Python - C</h2>
+          <h2 className="font-weight-light mb-0">Javascript - React - Node - Python - C - HTML - CSS</h2>
           <h2 className="font-weight-light mb-0">Firebase - Heroku - Netlify</h2>
 	      </div>
         <div className="text-center mt-4">
