@@ -246,7 +246,6 @@ class App extends Component {
         </div>
       </div>
     </div>
-
     <div className="portfolio-modal mfp-hide" id="portfolio-modal-4">
       <div className="portfolio-modal-dialog bg-white">
         <a className="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
