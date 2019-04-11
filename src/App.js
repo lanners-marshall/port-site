@@ -234,8 +234,6 @@ class App extends Component {
             <div className="col-lg-8 mx-auto">
               <h2 className="text-secondary text-uppercase mb-0">Spotty</h2>
               <hr className="star-dark mb-5"/>
-
-
               <iframe className="youtubeVid" src="https://www.youtube.com/embed/m7SGsEVHVuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <p className="mb-5">This is a React App that interacts with the Spotify Api. It can be used to play music from your playlists, look up music and play it, build new tracks, and post those new tracks to your Spotify account. <a href="https://react-spotty.herokuapp.com/">Website</a>, <a href="https://github.com/lanners-marshall/spotty">Github</a></p>
               <a className="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
