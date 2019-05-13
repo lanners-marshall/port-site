@@ -43,6 +43,7 @@ class App extends Component {
           <h2 className="font-weight-light mb-0">Javascript - React - Node - Python - C - HTML - CSS</h2>
           <h2 className="font-weight-light mb-0">Firebase - Heroku - Netlify</h2>
 	      </div>
+        
         <div className="text-center mt-4">
           <a className="btn btn-xl btn-outline-light" href="img/portfolio/resume.pdf" download>
             <i className="fas fa-download mr-2"></i>
