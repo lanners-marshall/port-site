@@ -13,6 +13,7 @@ class App extends Component {
 		    <nav className="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
 		      <div className="container">
 		        <a className="navbar-brand js-scroll-trigger" href="#page-top">Marshall Lanners</a>
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="22e519c3-408c-4d1e-89a5-535ae59c3481"></div>
 		        <button className="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 		          Menu
 		          <i className="fas fa-bars"></i>
@@ -309,7 +310,5 @@ class App extends Component {
     );
   }
 }
-
-//tacos
 
 export default App;
