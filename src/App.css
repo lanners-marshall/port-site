@@ -7,7 +7,7 @@
 }
 
 .youtubeVid {
-  max-width:580px;
+  max-width: 580px;
   width: 100%;
   height: 380px;
 }
@@ -17,7 +17,7 @@
 }
 
 .whiteText:hover {
-  color:white;
+  color: white;
 }
 
 .maxwidth {
@@ -25,7 +25,7 @@
   margin: 0 auto 30px auto;
 }
 
-.email-form > textarea{
+.email-form > textarea {
   max-width: 550px;
   border-radius: 4px;
   padding: 10px 0;
@@ -37,7 +37,9 @@
   border-style: ridge;
 }
 
-.email-form > textarea:focus {outline:none;}
+.email-form > textarea:focus {
+  outline: none;
+}
 
 .email-form > a {
   border: solid grey 2px;
@@ -49,12 +51,12 @@
   padding: 1%;
   text-align: center;
   color: #e3e1e1;
-  background-color:#2c3e50;
+  background-color: #2c3e50;
 }
 
 .email-form > a:hover {
   background-color: #e3e1e1;
-  color:#2c3e50;
+  color: #2c3e50;
   text-decoration: none;
 }
 
@@ -69,15 +71,17 @@
   font-size: 1.2rem;
 }
 
-.email-form > input:focus {outline:none;}
+.email-form > input:focus {
+  outline: none;
+}
 
 .outline {
   max-width: 650px;
   padding: 3%;
   border-radius: 10px;
-  -webkit-box-shadow: 1px 2px 3px 4px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 1px 2px 3px 4px #ccc;  /* Firefox 3.5 - 3.6 */
-  box-shadow: 1px 2px 3px 4px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  -webkit-box-shadow: 1px 2px 3px 4px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 1px 2px 3px 4px #ccc; /* Firefox 3.5 - 3.6 */
+  box-shadow: 1px 2px 3px 4px #ccc; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
 .email-form {
@@ -90,7 +94,7 @@
   flex-direction: column;
 }
 
-@media (max-width: 700px){
+@media (max-width: 700px) {
   .email-form {
     margin: 0 auto;
   }
@@ -99,7 +103,7 @@
     margin: 0 auto;
     margin-bottom: 10px;
   }
-  .email-form > textarea{
+  .email-form > textarea {
     max-width: 600px;
   }
   .outline {
@@ -110,8 +114,14 @@
   }
 }
 
-@media (max-width: 700px){
-  .email-form > textarea{
+@media (max-width: 700px) {
+  .email-form > textarea {
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .youtubeVid {
+    height: 200px;
   }
 }
