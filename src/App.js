@@ -37,7 +37,7 @@ class App extends Component {
     
 	    <header className="masthead bg-primary text-white text-center">
 	      <div className="container">
-	        <img className="img-fluid mb-5 d-block mx-auto" src="img/me.png" alt=""/>
+	        <img className="img-fluid mb-5 d-block mx-auto" src="img/me.png" alt="marshall lanners"/>
 	        <h1 className="text-uppercase mb-0">Marshall Lanners</h1>
 	        <hr className="star-light"/>
 	        <h2 className="font-weight-light mb-0">Full Stack Web Developer</h2><br />
@@ -65,7 +65,7 @@ class App extends Component {
                   <i className="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img className="img-fluid" src="img/portfolio/taco_run.png" alt=""/>
+              <img className="img-fluid" src="img/portfolio/taco_run.jpg" alt=""/>
             </a>
           </div>
           <div className="col-md-6 col-lg-4">
@@ -75,7 +75,7 @@ class App extends Component {
                   <i className="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img className="img-fluid" src="img/portfolio/dnd.png" alt=""/>
+              <img className="img-fluid" src="img/portfolio/dnd.jpg" alt=""/>
             </a>
           </div>
           <div className="col-md-6 col-lg-4">
@@ -85,7 +85,7 @@ class App extends Component {
                   <i className="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img className="img-fluid" src="img/portfolio/spotty.png" alt=""/>
+              <img className="img-fluid" src="img/portfolio/spotty.jpg" alt=""/>
             </a>
           </div>
           <div className="col-md-6 col-lg-4">
@@ -95,7 +95,7 @@ class App extends Component {
                   <i className="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img className="img-fluid" src="img/portfolio/interface.png" alt=""/>
+              <img className="img-fluid" src="img/portfolio/interface.jpg" alt=""/>
             </a>
           </div>
           <div className="col-md-6 col-lg-4">
@@ -105,7 +105,7 @@ class App extends Component {
                   <i className="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img className="img-fluid" src="img/portfolio/kitchen.png" alt=""/>
+              <img className="img-fluid" src="img/portfolio/kitchen.jpg" alt=""/>
             </a>
           </div>
           <div className="col-md-6 col-lg-4">
@@ -115,7 +115,7 @@ class App extends Component {
                   <i className="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img className="img-fluid" src="img/portfolio/mud.png" alt=""/>
+              <img className="img-fluid" src="img/portfolio/mud.jpg" alt=""/>
             </a>
           </div>
         </div>
